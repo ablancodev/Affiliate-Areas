@@ -1,0 +1,30 @@
+[affiliates_is_not_affiliate]
+<p>Please log in to access the affiliate area.</p>
+[affiliates_login_redirect]
+<p>If you are not an affiliate, you can join the affiliate program here:</p>
+[affiliates_registration]
+[/affiliates_is_not_affiliate]
+
+[affiliates_is_affiliate]
+<p>Welcome to your affiliate area. Here you can find information about your affiliate link and earnings.</p>
+<h3>Affiliate link</h3>
+<p>Your affiliate URL:<br/>
+<code>[affiliates_by_username][affiliates_url][/affiliates_by_username]</code></p>
+<p>Use this code to embed your affiliate link:<br/>
+<code>&lt;a href="[affiliates_by_username][affiliates_url][/affiliates_by_username]"&gt;Affiliate link&lt;/a&gt;</code></p>
+<p>Tip: You should change the text <em>Affiliate link</em> to something more attractive.</p>
+<h3>Performance</h3>
+<h4>Total Earnings</h4>
+<h5>Commissions pending payment</h5>
+[affiliates_referrals show="total" status="accepted"]
+<h5>Commissions paid</h5>
+[affiliates_referrals show="total" status="closed"]
+<h4>Number of sales referred</h4>
+<ul>
+<li>Accepted referrals pending payment: [affiliates_referrals status="accepted"]</li>
+<li>Referrals paid: [affiliates_referrals status="closed"]</li>
+</ul>
+<h4>Monthly Earnings</h4>
+[affiliates_earnings]
+[affiliates_logout]
+[/affiliates_is_affiliate]
